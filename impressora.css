@@ -1,0 +1,44 @@
+@media print {
+    @page {
+        size: A4;
+        margin: 3cm 2cm 2cm 3cm;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header > h1 {
+        color: black;
+    }
+
+    header > p {
+        color: black;
+        text-shadow: none;
+        text-align: center;
+    }
+
+    /* main {
+        padding: 3cm 2cm 2cm 3cm;
+    } */
+
+    aside > h3 {
+        color: black;
+    }
+    
+    p {
+        font: arial 12pt normal;
+        line-height: 1,5em;
+        text-align: justify;
+        text-indent: 1,25cm;
+
+        /* para as citações longas, notas de rodapé e legendas: 10pt, sem aspas recuo de 4cm(margin-left: 4cm) */
+
+        /* citação curta (até 3 linhas) 
+            cintaçao longa (mais de 3 linhas) */
+    }
+
+    footer {
+        display: none;
+    }
+}
