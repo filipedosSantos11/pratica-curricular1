@@ -4,6 +4,20 @@
         margin: 3cm 2cm 2cm 3cm;
     }
 
+    body {
+        background-color: white;
+    }
+
+    main {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    header {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
     nav {
         display: none;
     }
@@ -27,7 +41,7 @@
     }
     
     p {
-        font: arial 12pt normal;
+        font: arial 12pt normal; 
         line-height: 1,5em;
         text-align: justify;
         text-indent: 1,25cm;
