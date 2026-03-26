@@ -224,6 +224,11 @@ footer a:hover {
     color: var(--cor1);
 }
 
+div#profissional > p {
+    text-align: justify;
+    margin: 10px 0px;
+}
+
 @media (max-width: 768px) {
     aside > ul {
     list-style-type: '\2713\00A0\00A0';
