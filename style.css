@@ -226,7 +226,7 @@ footer a:hover {
 
 @media (max-width: 768px) {
     aside > ul {
-    list-style-type: '\1F5F8\00A0\00A0';
+    list-style-type: '✓\00A0\00A0';
     list-style-position: inside;
     }
 }
