@@ -224,9 +224,9 @@ footer a:hover {
     color: var(--cor1);
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     aside > ul {
     list-style-type: '\2713\00A0\00A0'; 
     list-style-position: inside;
     }
-} */
+}
